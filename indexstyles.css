@@ -91,66 +91,30 @@ input.search {
     width: 100%;
 }
 
-.index_container img {
+/* .index_container img {
+    width: 100%;
+} */
+
+.swiper {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+}
+
+.swiper-slide img {
     width: 100%;
 }
 
-/* .slider {
-    width: 100%;
-    height: 920px;
-    background-color: #DE350B;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    text-align: center;
-    overflow: hidden;
-  }
-
-  .index_container {
-    width: 1500;
-    background-color: #DE350B;
-    height: 920px;
-    clear: both;
-    position: relative;
-    -webkit-transition: left 2s;
-    -moz-transition: left 2s;
-    -o-transition: left 2s;
-    transition: left 2s;
-  }
-  .slide {
-    float: left;
-    margin: 0px;
-    padding: 0px;
-    position: relative;
-  }
-
-  #slide-1:target ~ .index_container {
-    left: 0px;
-  }
-  #slide-2:target ~ .index_container {
-    left: -500px;
-  }
-  #slide-3:target ~ .index_container {
-    left: -1000px;
-  }
-
-  .buttons {
-    position: relative;
-    margin-top: -20px;
-  }
-  .buttons a {
-    display: inline-block;
-    height: 15px;
-    width: 15px;
-    border-radius: 50px;
-    background-color: #DE350B;
-  } */
+.swiper .swiper-pagination-bullet-active {
+    background: #FFF;
+}
 
 .bottom-left {
     position: absolute;
     bottom: 38%;
     left: 5%;
     width: 35%;
+    z-index: 2;
 }
 
 .elevate {
@@ -593,6 +557,8 @@ background: transparent;
  }
 
  header {
+    position: sticky;
+    background-color: #fff;
     top: 0;
 }
  

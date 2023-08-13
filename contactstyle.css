@@ -23,7 +23,7 @@ header {
     margin-top: 1%;
     margin-bottom: 2%;
     padding: 0 5.5%;
-    position: relative;
+    position: sticky;
     z-index: 4;
 }
 
@@ -286,6 +286,8 @@ background: transparent;
     }
 
     header {
+        position: sticky;
+        background-color: #fff;
         top: 0;
     }
 
