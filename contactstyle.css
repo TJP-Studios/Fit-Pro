@@ -286,6 +286,8 @@ background: transparent;
     }
 
     header {
+        position: sticky;
+        background-color: #fff;
         top: 0;
     }
 
