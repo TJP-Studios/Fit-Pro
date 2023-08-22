@@ -30,6 +30,7 @@ body {
 }
 
 /* header section */
+
 header {
   position: sticky;
   top: 0;
@@ -550,7 +551,7 @@ footer .col-3 .contact .newsletter input {
 /* .classes-box main section .content button */
 
 
-h1 {
+/* h1 {
   margin-bottom: 3%;
 }
 
@@ -587,9 +588,9 @@ h1 {
 .lefty5 {
   margin-right: 0%;
   margin-left: 5%;
-}
+} */
 
-button {
+/* button {
   background: #DE350B;
   color: #fff;
   padding: 0.75rem;
@@ -600,7 +601,7 @@ button {
   margin-top: 30px;
   width: 30%;
   cursor: pointer;
-}
+} */
 
 .classes-box main .view-more {
   padding: 10px;
