@@ -23,7 +23,7 @@ header {
     margin-top: 1%;
     margin-bottom: 2%;
     padding: 0 5.5%;
-    position: relative;
+    position: sticky;
     z-index: 4;
 }
 
@@ -286,6 +286,8 @@ background: transparent;
     }
 
     header {
+        position: sticky;
+        background-color: #fff;
         top: 0;
     }
 
@@ -331,7 +333,7 @@ background: transparent;
    }
 
    .bottom-center {
-    font-size: 24.414px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: 28.229px; /* 115.625% */
