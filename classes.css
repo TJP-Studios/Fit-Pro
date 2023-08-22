@@ -44,7 +44,7 @@ header {
 }
 
 header.scrolled {
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.212);
+  /* box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.212); */
   transition: all 1000ms;
 }
 
@@ -65,15 +65,24 @@ header .logo img {
 header .nav {
   width: calc(100% - 20%);
   display: flex;
-  justify-content: flex-end;
+  margin-right: 10%;
   align-items: center;
   flex-wrap: wrap;
   gap: 50px;
+  color: rgba(2, 15, 34, 0.56);
 }
 
 header .nav .search {
   position: relative;
   width: fit-content;
+  margin-right: 7%;
+  margin-left: 7%;
+}
+
+ul {
+  display: flex;
+  width: 125%;
+  justify-content: space-between !important;
 }
 
 header .nav .search .fa-search {
@@ -88,7 +97,7 @@ header .nav .search input {
   padding: 10px 15px 10px 40px;
   outline: none;
   border: 1px solid rgba(2, 15, 34, 0.56);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 header .nav nav ul {
@@ -340,9 +349,11 @@ main .special .sticky .large img {
 
 
 /* footer */
+
 footer {
   background: #020F22;
   width: 100%;
+  line-height: 200%;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -374,10 +385,12 @@ footer .col-1 .top img {
 
 footer .col-1 .top p {
   margin-top: 20px;
+  margin-bottom: 7%;
   color: #fff;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 1.5px;
+  font-size: 14px;
+  width: 77%;
+  line-height: 150%;
+
 }
 
 footer .col-1 .down {
@@ -396,24 +409,29 @@ footer .col-3 h3 {
   font-weight: 300;
 }
 
+footer .col-1 .down h3 {
+  font-size: small;
+}
+
 footer .col-1 .down .icons {
   margin-top: 20px;
   display: flex;
   width: 100%;
   justify-content: flex-start;
   align-items: center;
+  margin-top: 0%;
   gap: 16px;
 }
 
 footer .col-1 .down .icons i {
-  font-size: 22px;
+  font-size: 20px;
   color: #fff;
 }
 
 footer .col-2 .link {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  
 }
 
 footer .col-2 .link a {
@@ -429,6 +447,7 @@ footer .col-3 {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-right: 5%;
 }
 
 footer .col-3 .contact {
@@ -474,20 +493,22 @@ footer .col-3 .contact .newsletter {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-top: 0.0%;
+  margin-bottom: 10%;
 }
 
 footer .col-3 .contact .newsletter input {
   width: 100%;
   height: 40px;
-  border-radius: 10px;
   color: #fff;
-  border: 1px solid #fff;
+  border: 1px solid rgba(247, 247, 247, 0.37);
   background: transparent;
   outline: none;
   padding: 10px;
 }
 
 /* instructors styling*/
+
 .classes-box main section {
   width: 100%;
   display: flex;
@@ -526,15 +547,58 @@ footer .col-3 .contact .newsletter input {
   word-wrap: break-word;
 }
 
-.classes-box main section .content button {
+/* .classes-box main section .content button */
+
+
+h1 {
+  margin-bottom: 3%;
+}
+
+.lefty1 {
+  margin-right: 5%;
+}
+
+.righty1 {
+  margin-right: 5%;
+}
+
+.righty2 {
+  margin-left: 10%;
+}
+
+.lefty3 {
+  margin-right: 5%;
+}
+
+.righty3 {
+  margin-right: 5%;
+}
+
+.righty4 {
+  margin-left: 11%;
+}
+
+.righty5 {
+  margin-left: 7%;
+  margin-right: 9%;
+
+}
+
+.lefty5 {
+  margin-right: 0%;
+  margin-left: 5%;
+}
+
+button {
   background: #DE350B;
   color: #fff;
   padding: 0.75rem;
   border: none;
   outline: none;
   border-radius: 10px;
-  font-weight: 600;
-  margin-top: 10px;
+  font-weight: 500;
+  margin-top: 30px;
+  width: 30%;
   cursor: pointer;
 }
 
@@ -545,9 +609,11 @@ footer .col-3 .contact .newsletter input {
   border-radius: 7px;
   background: transparent;
   color: #DE350B;
-  margin-top: 30px;
+  margin-top: 40px;
   cursor: pointer;
+  width: 13%;
 }
+
 
 
 
