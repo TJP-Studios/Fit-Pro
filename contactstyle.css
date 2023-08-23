@@ -259,6 +259,7 @@ font-family: Open Sans;
 font-size: 16px;
 font-style: normal;
 line-height: 26px; 
+margin-bottom: 5%;
 }
 
 .index_url img {
@@ -358,7 +359,7 @@ background: transparent;
    .submit {
     display: flex;
     height: 64px;
-    padding: 3% 33%;
+    padding: 3% 31%;
 }
 
 .contact_section {
