@@ -22,9 +22,13 @@ header {
     align-items: center;
     margin-top: 1%;
     margin-bottom: 2%;
-    padding: 0 5.5%;
+    padding: 0 3% 0 5.5%;
     position: relative;
     z-index: 4;
+}
+
+.logo img {
+    width: 70%;
 }
 
 .index_mobile_screen {
@@ -80,8 +84,9 @@ input.search {
     padding: 8px 24px;
     display: block;
     border-radius: 4px;
-    border: 1% #6D6D6D;
-    background: transparent url("assets/search-normal.png") no-repeat 2px;
+    border: 0.1px solid rgba(2, 15, 34, 0.56);
+    background: transparent url("assets/search-normal1.png") no-repeat 5px;
+    
 }
 
 .index_container {
@@ -208,10 +213,10 @@ section {
 .index_column1,.index_column2,.index_column3,.index_column4,.index_column5,.index_column6 {
     flex: 1;
     background: #fff;
-    border: 0.2px solid #B5B5B5;
+    border: 0px solid #B5B5B5;
     align-items: flex-start;
     border-radius: 8px;
-    box-shadow: 0px 8px 15px -3px rgba(15, 15, 16, 0.10);
+    box-shadow: 0px 10px 17px -3px rgba(15, 15, 16, 0.10);
     padding: 2%;
     height: 95vh;
 }
@@ -381,9 +386,7 @@ section {
 .index_smallheader {
     font-family: Open Sans;
     font-size: 18px;
-    color: #020F22;
-    margin-left: 6%;
-    
+    color: #020F22; 
 }
 
 .index_testimonial p{
@@ -508,11 +511,12 @@ margin-bottom: 15%;
 }
 
 .index_url {
-    color: #FFF;
+color: #FFF;
 font-family: Open Sans;
 font-size: 16px;
 font-style: normal;
 line-height: 26px; 
+margin-bottom: 5%;
 }
 
 .index_url img {
