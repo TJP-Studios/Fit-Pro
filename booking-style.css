@@ -85,6 +85,10 @@ img {
     margin-bottom: 4%;
 }
 
+.image>img {
+    border-radius: 8px;
+}
+
 .mobile-img1 {
     display: none;
 }
@@ -192,6 +196,12 @@ hr {
     flex-wrap: wrap;
     width: 30%;
     margin-bottom: 2%;
+}
+
+.alex>img,
+.jennifer>img,
+.mark>img {
+    border-radius: 8px;
 }
 
 .trend-inst {
