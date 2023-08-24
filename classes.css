@@ -45,7 +45,7 @@ header {
 }
 
 header.scrolled {
-  /* box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.212); */
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.212);
   transition: all 1000ms;
 }
 
@@ -115,8 +115,8 @@ header .nav nav ul li {
 header .nav nav ul li a {
   text-decoration: none;
   font-size: 18px;
-  font-weight: 500;
-  color: #191919;
+  font-weight: 400;
+  color: rgba(2, 15, 34, 0.56);
 }
 
 header .nav nav ul li a.active {
@@ -595,7 +595,7 @@ button {
   color: #fff;
   padding: 0.75rem;
   border: none;
-  /* outline: none; */
+  outline: none;
   border-radius: 10px;
   font-weight: 500;
   margin-top: 30px;
@@ -677,7 +677,7 @@ button {
   header .nav.small-screen {
     position: fixed;
     max-width: 100%;
-    width: 60%;
+    width: 100%;
     height: 100%;
     display: flex;
     margin-left: 0px;
@@ -686,9 +686,11 @@ button {
     align-items: center;
     background: #fff;
     top: 0;
+    margin-top: 25%;
+    margin-right: 20%;
     left: 0;
     right: 0;
-    padding: 10px;
+    padding-right: 50px;
     z-index: 1091;
     transition: all 700ms;
   }
@@ -801,16 +803,22 @@ button {
     mix-blend-mode: screen;
   }
 
+  main .special {
+    border-radius: unset;
+    width: 100%;
+  }
+
 
   main .special .sticky {
     height: 80%;
     width: 100%;
     flex-wrap: nowrap;
     padding: 10px;
+    
   }
 
   .special-text h1 {
-    margin-top: 5%;
+    margin-top: 6%;
   }
 
   .mini3, .mini5 {
@@ -868,4 +876,6 @@ button {
   footer .col-3 {
     padding: 15px;
   }
+
+
 }
