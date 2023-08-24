@@ -134,6 +134,7 @@ img {
 
 .woman {
     position: absolute;
+    border-radius: 8px;
     width: 40%;
     margin-top: 10%;
     left: 10%;
@@ -145,9 +146,10 @@ img {
 
 .man {
     position: absolute;
+    border-radius: 8px;
     width: 28%;
     left: 30%;
-    margin-top: 34%;
+    margin-top: 32.6%;
 }
 
 .man2 {
@@ -248,6 +250,12 @@ img {
     position: relative;
     width: 30%;
     margin-left: 4.2%;
+}
+
+.tracy>img,
+.alex>img,
+.jennifer>img {
+    border-radius: 8px;
 }
 
 .alex-text,
@@ -598,6 +606,10 @@ img {
         margin-left: 5.5%;
     }
 
+    .mobile-alex>img {
+        border-radius: 8px;
+    }
+
     .alex-text {
         position: absolute;
         top: 70%;
@@ -713,17 +725,19 @@ img {
     .woman2 {
         display: block;
         position: absolute;
-        width: 70%;
-        margin-left: 2%;
-        margin-top: 13%;
+        border-radius: 8px;
+        width: 60%;
+        margin-left: 3%;
+        margin-top: 19%;
     }
 
     .man2 {
         display: block;
         position: absolute;
-        width: 65%;
-        margin-left: 35%;
-        margin-top: 44%;
+        border-radius: 8px;
+        width: 60%;
+        margin-left: 37%;
+        margin-top: 45.5%;
     }
 
     .about-fitpro {
