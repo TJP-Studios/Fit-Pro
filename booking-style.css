@@ -147,7 +147,7 @@ hr {
 
 .submit-button {
     display: flex;
-    width: 590px;
+    width: 621px;
     padding: 16px 200px;
     justify-content: center;
     align-items: center;
@@ -610,6 +610,28 @@ hr {
         margin-top: 50%;
         margin-bottom: 10%;
         margin-left: 3%;
+    }
+
+    
+    .submit-button {
+        display: flex;
+        width: 592px;
+        padding: 16px 64px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border: none;
+        border-radius: 8px;
+        background: #DE350B;
+        color: #F5F5F5;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+        margin-left: 4%;
+        margin-bottom: 3%;
+        margin-top: 3%;
     }
 
 }
