@@ -92,12 +92,12 @@ input.search {
 
 .bottom-center {
     position: absolute;
-    bottom: 30%;
-    left: 26%;
+    bottom: 35%;
+    left: 30%;
     width: 50%;
     color: #FFF;
     font-family: Roboto;
-    font-size: 64px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 600;
     line-height: 74px; /* 115.625% */
@@ -267,6 +267,10 @@ margin-bottom: 5%;
 }
 
 .links_header2 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
     margin-top: 15%;
     margin-bottom: 10%;
 }
