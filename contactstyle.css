@@ -97,7 +97,7 @@ input.search {
     width: 50%;
     color: #FFF;
     font-family: Roboto;
-    font-size: 64px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 600;
     line-height: 74px; /* 115.625% */
@@ -267,6 +267,7 @@ margin-bottom: 5%;
 }
 
 .links_header2 {
+    font-family: Roboto;
     margin-top: 15%;
     margin-bottom: 10%;
 }
