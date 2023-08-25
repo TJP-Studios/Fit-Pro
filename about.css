@@ -24,9 +24,8 @@ header {
 }
 
 .logo {
-    width: 30%;
-    padding-left: 5%;
-    padding-top: 1%;
+    width: 35%;
+    padding-left: 4%;
 }
 
 .logo img {
@@ -39,7 +38,7 @@ header {
     margin-top: 2.1%;
     border: 1px solid gray;
     border-radius: 2px;
-    height: 0%;
+    height: 1%;
 }
 
 .search-button {
@@ -546,6 +545,7 @@ img {
     }
 
     main {
+        padding: 0%;
         width: 100%;
         position: relative;
     }
@@ -561,7 +561,7 @@ img {
     .schedule-dropdown-menu {
         display: inline;
         margin-top: 5%;
-        margin-left: 62%;
+        margin-left: 58%;
         width: 4%;
     }
 
