@@ -48,7 +48,7 @@ header #bars {
 }
 
 header .logo {
-    width: 60px;
+    width: 65px;
     height: 60px;
 }
 
@@ -75,7 +75,7 @@ header .nav .search {
 
 ul {
     display: flex;
-    width: 125%;
+    width: 120%;
     justify-content: space-between !important;
 }
 
@@ -103,6 +103,7 @@ header .nav nav ul {
 
 header .nav nav ul li {
     list-style: none;
+    font-size: xx-large;
 }
 
 header .nav nav ul li a {
@@ -304,11 +305,11 @@ footer .col-3 h3 {
 }
 
 footer .col-1 .down h3 {
-    font-size: small;
+    font-size: larger;
 }
 
 footer .col-1 .down .icons {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     width: 100%;
     justify-content: flex-start;
@@ -318,7 +319,7 @@ footer .col-1 .down .icons {
 }
 
 footer .col-1 .down .icons i {
-    font-size: 20px;
+    font-size: 30px;
     color: #fff;
 }
 
@@ -487,9 +488,9 @@ footer .col-3 .contact .newsletter input {
 
 @media screen and (max-width: 500px) {
 
-    body,
-    html {
+    body {
         max-width: 100%;
+        width: 100%;
     }
 
     .classes-box main section .img {

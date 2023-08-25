@@ -55,7 +55,7 @@ header #bars {
 }
 
 header .logo {
-  width: 60px;
+  width: 65px;
   height: 60px;
 }
 
@@ -416,11 +416,11 @@ footer .col-3 h3 {
 }
 
 footer .col-1 .down h3 {
-  font-size: small;
+  font-size: larger;
 }
 
 footer .col-1 .down .icons {
-  margin-top: 20px;
+  margin-top: 10px;
   display: flex;
   width: 100%;
   justify-content: flex-start;
@@ -430,7 +430,7 @@ footer .col-1 .down .icons {
 }
 
 footer .col-1 .down .icons i {
-  font-size: 20px;
+  font-size: 30px;
   color: #fff;
 }
 
