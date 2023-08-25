@@ -503,7 +503,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: 28px; 
-margin-top: -22%;
+margin-top: -25%;
 margin-bottom: 15%;
 }
 
@@ -526,6 +526,9 @@ margin-bottom: 5%;
 
 .links_header2 {
     font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
     margin-top: 15%;
     margin-bottom: 10%;
 }
