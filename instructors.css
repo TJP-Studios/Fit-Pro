@@ -246,7 +246,7 @@ button {
 footer {
     background: #020F22;
     width: 100%;
-    line-height: 200%;
+    line-height: 350%;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -269,11 +269,12 @@ footer .col-2 {
 
 footer .col-1 .top {
     width: 100%;
+    margin-top: 10%;
 }
 
 footer .col-1 .top img {
-    width: 40px;
-    height: 40px;
+    width: 110px;
+    height: 50px;
 }
 
 footer .col-1 .top p {
@@ -282,7 +283,7 @@ footer .col-1 .top p {
     color: #fff;
     font-size: 14px;
     width: 77%;
-    line-height: 150%;
+    line-height: 170%;
 
 }
 
@@ -324,6 +325,7 @@ footer .col-1 .down .icons i {
 footer .col-2 .link {
     display: flex;
     flex-direction: column;
+    line-height: 270%;
 
 }
 
@@ -339,7 +341,6 @@ footer .col-3 {
     padding: 20px 20px 20px 50px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
     margin-right: 5%;
 }
 
@@ -392,7 +393,6 @@ footer .col-3 .contact .newsletter {
 
 footer .col-3 .contact .newsletter input {
     width: 100%;
-    height: 40px;
     color: #fff;
     border: 1px solid rgba(247, 247, 247, 0.37);
     background: transparent;
