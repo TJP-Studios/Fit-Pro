@@ -50,7 +50,7 @@ header #bars {
 header .logo {
     width: 65px;
     height: 60px;
-    margin-top: 1%;
+    /* margin-top: 1%; */
 }
 
 header .logo img {
@@ -61,7 +61,7 @@ header .nav {
     width: calc(100% - 20%);
     display: flex;
     margin-right: 10%;
-    margin-top: 1%;
+    /* margin-top: 1%; */
     align-items: center;
     flex-wrap: wrap;
     gap: 50px;
@@ -71,9 +71,9 @@ header .nav {
 header .nav .search {
     position: relative;
     width: fit-content;
-    margin-right: 7%;
+    margin-right: 4%;
     margin-left: 7%;
-    margin-top: 1%;
+    /* margin-top: 1%; */
 }
 
 ul {
