@@ -50,6 +50,7 @@ header #bars {
 header .logo {
     width: 65px;
     height: 60px;
+    margin-top: 1%;
 }
 
 header .logo img {
@@ -60,6 +61,7 @@ header .nav {
     width: calc(100% - 20%);
     display: flex;
     margin-right: 10%;
+    margin-top: 1%;
     align-items: center;
     flex-wrap: wrap;
     gap: 50px;
@@ -71,6 +73,7 @@ header .nav .search {
     width: fit-content;
     margin-right: 7%;
     margin-left: 7%;
+    margin-top: 1%;
 }
 
 ul {
@@ -247,7 +250,7 @@ button {
 footer {
     background: #020F22;
     width: 100%;
-    line-height: 350%;
+    line-height: 400%;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -306,6 +309,7 @@ footer .col-3 h3 {
 
 footer .col-1 .down h3 {
     font-size: larger;
+    line-height: 160%;
 }
 
 footer .col-1 .down .icons {
@@ -386,7 +390,7 @@ footer .col-3 .contact .newsletter p {
 }
 
 footer .col-3 .contact .newsletter {
-    width: 100%;
+    width: 105%;
     display: flex;
     flex-direction: column;
     margin-top: 0.0%;
