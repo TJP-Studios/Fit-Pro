@@ -381,7 +381,7 @@ footer .col-2 {
 
 footer .col-1 .top {
   width: 100%;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 footer .col-1 .top img {
@@ -391,7 +391,7 @@ footer .col-1 .top img {
 
 footer .col-1 .top p {
   margin-top: 20px;
-  margin-bottom: 7%;
+  margin-bottom: 4%;
   color: #fff;
   font-size: 14px;
   width: 77%;
@@ -437,7 +437,8 @@ footer .col-1 .down .icons i {
 footer .col-2 .link {
   display: flex;
   flex-direction: column;
-  line-height: 270%;
+  gap: 16px;
+  line-height: 115%;
   
 }
 
@@ -453,7 +454,7 @@ footer .col-3 {
   padding: 20px 20px 20px 50px;
   display: flex;
   flex-direction: column;
-  margin-right: 5%;
+  margin-right: 10%;
 }
 
 footer .col-3 .contact {
@@ -467,7 +468,9 @@ footer .col-3 .contact .details {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  margin-top: 6%;
+  gap: 16px;
+  line-height: 16px;
 }
 
 footer .col-3 .contact .details div {
@@ -498,16 +501,18 @@ footer .col-3 .contact .newsletter {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 10px;
   margin-top: 0.0%;
-  margin-bottom: 10%;
+  
 }
+
+
 
 footer .col-3 .contact .newsletter input {
   width: 100%;
   height: 40px;
   color: #fff;
   border: 1px solid rgba(247, 247, 247, 0.37);
+  border-radius: 4px;
   background: transparent;
   outline: none;
   padding: 10px;
