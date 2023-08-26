@@ -457,7 +457,7 @@ footer .col-3 .contact .newsletter input {
     }
 }
 
-@media screen and (max-width: 929px) {
+/* @media screen and (max-width: 929px) {
 
     .classes-box main section:nth-child(2),
     .classes-box main section:nth-child(4) {
@@ -475,9 +475,9 @@ footer .col-3 .contact .newsletter input {
     .classes-box main .view-more {
         width: 90%;
     }
-}
+} */
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
 
     footer {
         flex-direction: column;
@@ -490,9 +490,9 @@ footer .col-3 .contact .newsletter input {
     footer .col-3 {
         max-width: 100%;
     }
-}
+} */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 460px) {
 
     body {
         max-width: 100%;
