@@ -300,6 +300,7 @@ button {
     margin-top: 40px;
     cursor: pointer;
     width: 13%;
+    margin-left: 40%;
 }
 
 
@@ -469,12 +470,12 @@ footer .col-3 .contact .newsletter input {
 @media screen and (max-width: 880px) {
     header {
         height: 26vh;
-        width: 160%;
+        width: 141%;
     }
 
-    /* header .nav {
+    header .nav {
         margin-left: -6000px;
-    } */
+    }
 
     /* header .nav.small-screen {
         position: fixed;
@@ -516,233 +517,249 @@ footer .col-3 .contact .newsletter input {
     } */
 }
 
-    @media screen and (max-width: 929px) {
+@media screen and (max-width: 929px) {
 
-        .classes-box main section:nth-child(2),
-        .classes-box main section:nth-child(4) {
-            flex-direction: column-reverse;
-        }
-
-        .classes-box main section .content button {
-            width: 100%;
-        }
-
-        .classes-box main section:last-child {
-            display: none;
-        }
-
-        .classes-box main .view-more {
-            width: 90%;
-        }
+    .classes-box main section:nth-child(2),
+    .classes-box main section:nth-child(4) {
+        flex-direction: column-reverse;
     }
 
-    @media screen and (max-width: 800px) {
+    .classes-box main section .content button {
+        width: 100%;
+    }
 
-        footer {
+    .classes-box main section:last-child {
+        display: none;
+    }
+
+    .classes-box main .view-more {
+        width: 100%;
+        margin: unset;
+        margin-left: 7%;
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    /* footer {
             flex-direction: column;
+            max-width: 140%;
+            width: 140%;
         }
-
+    
 
 
         footer .col-1,
         footer .col-2,
         footer .col-3 {
             max-width: 100%;
-        }
+        } */
+}
+
+@media screen and (max-width: 460px) {
+
+    header {
+        position: sticky;
+        background-color: #fff;
+        top: 0;
     }
 
-    @media screen and (max-width: 460px) {
+    .hamburger {
+        display: block;
+        /* margin-right: 5%; */
+    }
 
-        header {
-            position: sticky;
-            background-color: #fff;
-            top: 0;
-        }
+    .hamburger.hide {
+        display: none;
+    }
 
-        .hamburger {
-            display: block;
-            margin-right: 5%;
-        }
+    .close-menu {
+        display: block;
+        margin-right: 5%;
+    }
 
-        .hamburger.hide {
-            display: none;
-        }
+    .close-menu.inactive {
+        display: none;
+    }
 
-        .close-menu {
-            display: block;
-            margin-right: 5%;
-        }
+    .close-menu.hide {
+        display: none;
+    }
 
-        .close-menu.inactive {
-            display: none;
-        }
-
-        .close-menu.hide {
-            display: none;
-        }
-
-        .nav2.visible {
-            display: flex;
-        }
+    .nav2.visible {
+        display: flex;
+    }
 
 
-        nav {
-            display: none;
-        }
+    nav {
+        display: none;
+    }
 
-        a {
-            text-decoration: none;
-            color: #6D6D6D;
-            font-size: 20px;
-        }
+    a {
+        text-decoration: none;
+        color: #6D6D6D;
+        font-size: 20px;
+    }
 
-        input.search {
-            display: none;
-        }
+    input.search {
+        display: none;
+    }
 
 
-        body {
-            max-width: 100%;
-            width: 100%;
-        }
+    body {
+        max-width: 100%;
+        width: 100%;
+    }
 
-        .classes-box main section .img {
+    /* .classes-box main section .img {
             width: 100%;
             height: 350px;
-        }
+        } */
 
-        .classes-box main section {
+    /* .classes-box main section {
             padding: 20px 15px;
         }
+ */
 
-
-        .section1 .lefty1 img {
-            width: 140%;
-            margin-left: 5%;
-            padding: 2%;
-
-        }
-
-        .section1 .righty1 {
-            position: absolute;
-            width: 115%;
-            margin-top: 190vh;
-            margin-left: 37%;
-            font-size: x-large;
-        }
-
-        .righty1 p,
-        .righty1 h1 {
-            margin-top: 8%;
-        }
-
-        .righty2 {
-            width: 100%;
-            margin-left: 0%;
-            margin-top: 92vh;
-        }
-
-        .righty2 {
-            margin-right: 12%;
-
-        }
-
-        .section2 .lefty2 {
-            font-size: x-large;
-            width: 125%;
-        }
-
-        .section2 p,
-        .section2 h1 {
-            width: 100%;
-            margin-left: 5%;
-        }
-
-        .section2 h1 {
-            font-size: larger;
-        }
-
-        .section2 button {
-            width: 104%;
-            margin-left: 5%;
-        }
-
-        .lefty3 {
-            margin-left: 48%;
-        }
-
-        .righty3 {
-            font-size: x-large;
-            margin-left: 6%;
-        }
-
-        .section3 button {
-            width: 150%;
-        }
-
-        .section3 h1,
-        .section3 p {
-            width: 150%;
-        }
-
-        .section3 p {
-            margin-top: 7%;
-        }
-
-        .righty4 {
-            margin-left: 6%;
-        }
-
-        .lefty4 {
-            width: 133%;
-            margin-left: 4%;
-            font-size: x-large;
-        }
-
-        .lefty4 button {
-            width: 100%;
-        }
-
-        .lefty5 {
-            margin-left: 40%;
-        }
-
-        .righty5 {
-            font-size: x-large;
-        }
-
-        .section5 h1,
-        .section5 p {
-            width: 150%;
-        }
-
-        .section5 .righty5 button {
-            width: 154%;
-            margin-right: 7%;
-        }
-
-        .view-more {
-            margin-left: 39%;
-            font-weight: 400;
-        }
-
-        .classes-box main .view-more {
-            width: 120%;
-            font-weight: 500;
-        }
-
-
-
-
-        button {
-            width: 107%;
-            font-size: xx-large;
-        }
-
-        footer .col-1,
-        footer .col-2,
-        footer .col-3 {
-            padding: 15px;
-        }
+    .section1 .lefty1 img {
+        width: 140%;
+        margin-left: 5%;
+        padding: 2%;
 
     }
+
+    .section1 .righty1 {
+        position: absolute;
+        width: 122%;
+        margin-top: 190vh;
+        margin-left: 38%;
+        font-size: x-large;
+    }
+
+    .righty1 p,
+    .righty1 h1 {
+        margin-top: 8%;
+    }
+
+    .righty1 button {
+        margin-bottom: 8%;
+    }
+
+    .righty2 {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 92vh;
+    }
+
+    .righty2 {
+        margin-right: 12%;
+
+    }
+
+    .section2 .lefty2 {
+        font-size: x-large;
+        width: 125%;
+    }
+
+    .section2 p,
+    .section2 h1 {
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    .section2 h1 {
+        font-size: larger;
+    }
+
+    .section2 button {
+        width: 104%;
+        margin-left: 5%;
+    }
+
+    .lefty3 {
+        margin-left: 48%;
+    }
+
+    .righty3 {
+        font-size: x-large;
+        margin-left: 6%;
+    }
+
+    .section3 button {
+        width: 150%;
+    }
+
+    .section3 h1,
+    .section3 p {
+        width: 150%;
+    }
+
+    .section3 p {
+        margin-top: 7%;
+    }
+
+    .righty4 {
+        margin-left: 6%;
+    }
+
+    .lefty4 {
+        width: 133%;
+        margin-left: 4%;
+        font-size: x-large;
+    }
+
+    .lefty4 button {
+        width: 100%;
+    }
+
+    .lefty5 {
+        margin-left: 40%;
+    }
+
+    .righty5 {
+        font-size: x-large;
+    }
+
+    .section5 h1,
+    .section5 p {
+        width: 150%;
+    }
+
+    .section5 .righty5 button {
+        width: 154%;
+        margin-right: 7%;
+    }
+
+    .view-more {
+        margin-left: 39%;
+        font-weight: 400;
+    }
+
+    .classes-box main .view-more {
+        width: 130%;
+        font-weight: 500;
+    }
+
+
+
+
+    button {
+        width: 107%;
+        font-size: xx-large;
+    }
+
+    footer {
+        flex-direction: column;
+        max-width: 140%;
+        width: 140%;
+    }
+
+    footer .col-1,
+    footer .col-2,
+    footer .col-3 {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+}
